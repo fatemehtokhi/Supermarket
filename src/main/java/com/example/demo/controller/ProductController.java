@@ -7,8 +7,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ProductController {
 	@RequestMapping("/")
 	public String home() { 
+		
 		return "home.jsp";
+	}
+	@RequestMapping("addProduct")
+	public String addProduct(){
+			return "home.jsp";
+			
+		}
 		
 	}
 
-}
+

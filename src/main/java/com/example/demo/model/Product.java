@@ -1,9 +1,14 @@
 package com.example.demo.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Product {
   private int serialnumber;
-  private String pname;
+  private  String pname;
   private int pprice;
+@Id 
 public int getSerialnumber() {
 	return serialnumber;
 }
