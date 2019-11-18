@@ -7,19 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <form action="addProduct">
-               <input type= "text" name="serialnumber">
-               <input type= "text" name="pname">       
-               <input type= "text" name="pprice">
-               <input type= "submit" ><br>
+    
+    <form action="getProduct">
+        <input type= "text" name="serialnumber">
         
-    
-    
-    
-    
-    
-    
-    </form>
+        <input type= "submit" ><br>
+ 
+</form>
+
 
 </body>
 </html>
