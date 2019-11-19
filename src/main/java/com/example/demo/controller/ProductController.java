@@ -22,7 +22,7 @@ public class ProductController {
 		return "home.jsp";
 	}
 
-	@PostMapping("/addProduct")
+	@PostMapping("/product")
 	public Product addProduct(final Product product) {
 		repo.save(product);
 		return product;
